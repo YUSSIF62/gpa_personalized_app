@@ -8,34 +8,75 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'GPA Goal Achiever',
       theme: ThemeData(
-          primarySwatch: Colors.green,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-          textTheme: TextTheme(
-            headlineLarge: TextStyle(
-              fontSize: 28.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.green[800],
-            ),
-            headlineSmall: TextStyle(
-              fontSize: 20.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.green[700],
-            ),
-            bodyMedium: TextStyle(
-              fontSize: 16.0,
-              color: Colors.black,
-            ),
+        primarySwatch: Colors.green,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: TextTheme(
+          headlineLarge: TextStyle(
+            fontSize: 28.0,
+            fontWeight: FontWeight.bold,
+            color: Colors.green[800],
           ),
-          inputDecorationTheme: InputDecorationTheme(
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(12.0),
-              borderSide: BorderSide(color: Colors.green),
-            ),
-            labelStyle: TextStyle(color: Colors.green),
+          headlineSmall: TextStyle(
+            fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            color: Colors.green[700],
           ),
-          elevatedButtonTheme:
-              ElevatedButtonThemeData(style: ElevatedButton.styleFrom())),
-      home: LoginScreen(),
+          bodyMedium: TextStyle(
+            fontSize: 16.0,
+            color: Colors.black,
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(12.0),
+            borderSide: BorderSide(color: Colors.green),
+          ),
+          labelStyle: TextStyle(color: Colors.green),
+        ),
+        elevatedButtonTheme:
+            ElevatedButtonThemeData(style: ElevatedButton.styleFrom()),
+      ),
+      home: SplashScreen(),
+    );
+  }
+}
+
+// Splash Screen
+class SplashScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              'GPA Goal Achiever',
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 40),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => LoginScreen()),
+                );
+              },
+              child: Text('Login'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SignUpScreen()),
+                );
+              },
+              child: Text('Sign Up'),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -111,6 +152,20 @@ class _LoginScreenState extends State<LoginScreen> {
               ElevatedButton(
                 onPressed: _login,
                 child: Text('Login'),
+              ),
+              SizedBox(height: 10),
+              ElevatedButton(
+                onPressed: () {
+                  // Handle Google login here
+                },
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('Login with Google'),
+                    SizedBox(width: 10),
+                    Icon(Icons.login), // Replace with Google Icon
+                  ],
+                ),
               ),
               TextButton(
                 onPressed: _navigateToSignUp,
@@ -201,6 +256,20 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 onPressed: _signUp,
                 child: Text('Sign Up'),
               ),
+              SizedBox(height: 10),
+              ElevatedButton(
+                onPressed: () {
+                  // Handle Google signup here
+                },
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('Sign Up with Google'),
+                    SizedBox(width: 10),
+                    Icon(Icons.account_circle), // Replace with Google Icon
+                  ],
+                ),
+              ),
             ],
           ),
         ),
@@ -209,7 +278,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   }
 }
 
-// Home Page Screen
+// Home Page Screen - Start the study plan process
 class HomePageScreen extends StatefulWidget {
   @override
   _HomePageScreenState createState() => _HomePageScreenState();
