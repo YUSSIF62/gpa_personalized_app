@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58578079295",
+    "project_id": "gpa-personalized",
+    "storage_bucket": "gpa-personalized.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58578079295:android:67b644a68c6bea3fc3728a",
+        "android_client_info": {
+          "package_name": "com.example.gpa_personalized_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWCYnBp1KAAFbWm_tF_j0_Q_k6tpHP1jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
