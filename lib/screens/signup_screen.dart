@@ -22,6 +22,21 @@ class _SignUpScreenState extends State<SignUpScreen> {
         MaterialPageRoute(builder: (context) => HomePageScreen()),
       );
     }
+    TextEditingController _nameController = TextEditingController();
+    TextEditingController _emailController = TextEditingController();
+    TextEditingController _usernameController = TextEditingController();
+    TextEditingController _passwordController = TextEditingController();
+    TextEditingController _confrirmpasswordController = TextEditingController();
+
+    @override
+    void dispose() {
+      _nameController.dispose();
+      _emailController.dispose();
+      _usernameController.dispose();
+      _passwordController.dispose();
+      _confrirmpasswordController.dispose();
+      super.dispose();
+    }
   }
 
   @override
