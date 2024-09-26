@@ -62,7 +62,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
             children: [
               // Welcome Message
               Text(
-                'Welcome, Username',
+                'Welcome',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 10),

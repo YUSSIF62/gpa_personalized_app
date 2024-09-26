@@ -27,10 +27,7 @@ class StudyPlanScreen extends StatelessWidget {
     // Time slots for study (can be adjusted)
     List<Map<String, String>> timeSlots = [
       {'start': '9:00 AM', 'end': '11:00 AM'},
-      {'start': '11:00 AM', 'end': '1:00 PM'},
-      {'start': '2:00 PM', 'end': '4:00 PM'},
-      {'start': '4:00 PM', 'end': '6:00 PM'},
-      {'start': '7:00 PM', 'end': '9:00 PM'}
+      {'start': '8:00 PM', 'end': '10:00 PM'},
     ];
 
     int timeSlotIndex = 0;
