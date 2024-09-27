@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gpa_personalized_app/screens/forgetpassword.dart';
 import 'package:gpa_personalized_app/screens/home_page.dart';
 import 'package:gpa_personalized_app/screens/login_screen.dart';
 import 'package:gpa_personalized_app/screens/signup_screen.dart';
@@ -23,7 +24,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashScreen(),
         '/signin': (context) => LoginScreen(),
+        '/home': (context) => HomePageScreen(),
         '/signup': (context) => SignUpScreen(),
+        '/forgetpassword': (context) => Forgetpassword()
         //
       },
     );

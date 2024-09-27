@@ -97,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       Spacer(),
                       TextButton(
                         onPressed: () {
-                          // Handle Forgot Password logic
+                          Navigator.pushNamed(context, '/forgetpassword');
                         },
                         child: Text('Forgot Password?'),
                       ),
