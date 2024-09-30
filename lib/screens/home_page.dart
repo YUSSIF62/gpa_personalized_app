@@ -16,6 +16,9 @@ class _HomePageScreenState extends State<HomePageScreen> {
       []; // Track multiple selected study habits
 
   final List<String> _studyHabits = [
+    'Visual',
+    'Auditory',
+    'Writing',
     'Reading',
     'Taking Notes',
     'Group Study',
