@@ -19,24 +19,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
     'Visual',
     'Auditory',
     'Writing',
-    'Reading',
-    'Taking Notes',
-    'Group Study',
-    'Using Flashcards',
-    'Taking Notes During Lectures',
-    'Watching Tutorial Videos',
-    'Attending Study Groups',
-    'Self-Paced Learning',
-    'Using Mnemonics',
-    'Practicing with Past Papers',
-    'Explaining Concepts to Others',
-    'Creating Mind Maps',
-    'Setting Study Goals',
-    'Reviewing Regularly',
-    'Using Study Apps',
-    'Active Recall',
-    'Practice Testing',
-    'Summarizing Information'
+    'Reading'
   ];
 
   // Adjusted to include a validation check for _selectedStudyHabits
