@@ -24,30 +24,8 @@ class _CoursesInputScreenState extends State<CoursesInputScreen> {
   List<Map<String, dynamic>> _courses = [];
 
   // Dropdown options for Year and Semester
-  final List<String> _years = [
-    'Level 100',
-    'Level 200',
-    'Level 300',
-    'Level 400'
-  ];
-  final List<String> _semesters = ['First Semester', 'Second Semester'];
-
-  // Method to add course details
-  void _addCourse() {
-    if (_formKey.currentState!.validate()) {
-      _formKey.currentState!.save();
-      setState(() {
-        _courses.add({'name': _courseName, 'credits': _creditHours});
-        _courseName = '';
-        _creditHours = 0.0;
-        _formKey.currentState!.reset();
-      });
-    }
-  }
-
-  double get _totalCredits {
-    return _courses.fold(0.0, (total, course) => total + course['credits']);
-  }
+  final List<String> _years = ['100', '200', '300', '400'];
+  final List<String> _semesters = ['First', 'Semester'];
 
   // Method to navigate to the Pledge Screen
   void _goToPledgeScreen() {
@@ -104,7 +82,7 @@ class _CoursesInputScreenState extends State<CoursesInputScreen> {
               // Dropdown for Selecting University Year
               DropdownButtonFormField<String>(
                 decoration: InputDecoration(
-                  labelText: 'Select your University Year',
+                  labelText: 'Select your Level/Year',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(15),
                     borderSide: BorderSide(color: Colors.green),
@@ -162,103 +140,6 @@ class _CoursesInputScreenState extends State<CoursesInputScreen> {
                   }
                   return null;
                 },
-              ),
-              SizedBox(height: 20),
-
-              // Form for Adding Course Name and Credit Hours
-              Form(
-                key: _formKey,
-                child: Column(
-                  children: [
-                    // Input for Course Name
-                    TextFormField(
-                      decoration: InputDecoration(
-                        labelText: 'Course Name',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(15),
-                          borderSide: BorderSide(color: Colors.green),
-                        ),
-                        filled: true,
-                        fillColor: Colors.grey[200],
-                      ),
-                      validator: (value) {
-                        if (value == null || value.isEmpty) {
-                          return 'Please enter a course name';
-                        }
-                        return null;
-                      },
-                      onSaved: (value) {
-                        _courseName = value!;
-                      },
-                    ),
-                    SizedBox(height: 15),
-
-                    // Input for Credit Hours
-                    TextFormField(
-                      decoration: InputDecoration(
-                        labelText: 'Credit Hours',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(15),
-                          borderSide: BorderSide(color: Colors.green),
-                        ),
-                        filled: true,
-                        fillColor: Colors.grey[200],
-                      ),
-                      keyboardType: TextInputType.number,
-                      validator: (value) {
-                        if (value == null || value.isEmpty) {
-                          return 'Please enter the credit hours';
-                        }
-                        return null;
-                      },
-                      onSaved: (value) {
-                        _creditHours = double.parse(value!);
-                      },
-                    ),
-                    SizedBox(height: 20),
-
-                    // Add Course Button
-                    ElevatedButton(
-                      onPressed: _addCourse,
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.green,
-                        padding:
-                            EdgeInsets.symmetric(vertical: 15, horizontal: 100),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(15),
-                        ),
-                      ),
-                      child: Text(
-                        'Add Course',
-                        style: TextStyle(fontSize: 16, color: Colors.white),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              SizedBox(height: 30),
-
-              // Course List (if available)
-              _courses.isEmpty
-                  ? Center(child: Text('No courses added yet.'))
-                  : ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: _courses.length,
-                      itemBuilder: (context, index) {
-                        return ListTile(
-                          title: Text(_courses[index]['name']),
-                          subtitle: Text(
-                              '${_courses[index]['credits']} credit hours'),
-                        );
-                      },
-                    ),
-
-              // Total Courses and Credits
-              SizedBox(height: 20),
-              Text(
-                'Total Courses: ${_courses.length}, Total Credits: $_totalCredits',
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                textAlign: TextAlign.center,
               ),
               SizedBox(height: 20),
 
