@@ -1,0 +1,59 @@
+student _year_of_study,current_cgpa,targeted_cgpa,course_enrollment,study_time_allocation,study_techniques,study_frequency,study_session_duration
+3,3.2,3.6,"Data Structures and Algorithms,Object-Oriented Programming,Discrete Mathematics,Computer Networks",25,"Reading,Taking Notes,Group Study,Practice Exams",3 times per week,3
+3,3.5,3.8,"Data Structures and Algorithms,Machine Learning,Software Engineering,Discrete Mathematics",25,"Reading,Taking Notes,Group Study",Daily,2
+3,3.6,3.8,"Software Engineering,Machine Learning,Data Visualization,Web Development,Computer Networks",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,3
+3,3.5,3.8,"Calculus III,Linear Algebra,Data Structures and Algorithms,Object-Oriented Programming",25,"Reading,Taking Notes,Practice Problems",Daily,2
+3,3.6,3.8,"Artificial Intelligence,Machine Learning,Data Structures,Algorithms,Software Engineering",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,2
+3,3.5,3.8,"Data Structures and Algorithms,Operating Systems,Software Engineering,Database Management Systems,Computer Networks",25,"Reading,Practice Problems,Group Study",3 times per week,2
+3,3.7,3.9,"Data Structures and Algorithms,Discrete Mathematics,Object-Oriented Programming,Operating Systems",25,"Reading,Practice Exams,Group Study",Daily,3
+3,3.5,3.8,"Data Structures and Algorithms,Machine Learning,Software Engineering,Computer Graphics",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,2
+3,3.6,3.8,"Introduction to Machine Learning,Data Mining,Deep Learning,Computer Vision,Natural Language Processing",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,2
+2,3.6,3.8,"Data Structures and Algorithms,Machine Learning,Software Engineering,Probability and Statistics",30,"Reading,Taking Notes,Practice Exams",Daily,2
+3,3.5,3.8,"Data Structures and Algorithms,Database Management Systems,Software Engineering,Artificial Intelligence",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,2
+3,3.5,3.8,"Data Structures and Algorithms,Object-Oriented Programming,Software Engineering,Discrete Mathematics",25,"Reading,Taking Notes,Practice Problems",Daily,2
+3,3.5,3.8,"Data Structures and Algorithms,Machine Learning,Software Engineering,Computer Networks",25,"Reading,Taking Notes,Group Study",Daily,3
+2,3.5,3.7,"Introduction to Data Science,Machine Learning Fundamentals,Calculus for Data Analysis,Data Visualization Techniques,Ethics in Artificial Intelligence",25,"Reading,Taking Notes,Practice Problems,Group Study",Daily,2
+2,3.5,3.8,"Data Structures and Algorithms,Discrete Mathematics,Object-Oriented Programming,Software Engineering",25,"Reading,Taking Notes,Practice Problems",3 times per week,3
+2,3.6,3.8,"Data Structures and Algorithms,Object-Oriented Programming,Discrete Mathematics,Computer Networks",25,"Reading,Taking Notes,Group Study",Daily,2
+3,3.5,3.8,"Machine Learning,Data Analysis,Software Engineering,Computer Graphics",25,"Reading,Taking Notes,Practice Exams,Group Study",3 times per week,2
+2,3.4,3.8,"Calculus 1,Introduction to Programming,Discrete Mathematics,Linear Algebra",20,"Reading,Taking Notes,Group Study",Daily,2
+3,3.5,3.8,"Data Structures and Algorithms,Software Engineering,Computer Networks,Database Management Systems",25,"Reading,Taking Notes,Practice Exams",3 times per week,2
+3,3.7,3.8,"Machine Learning,Artificial Intelligence,Software Engineering,Data Structures and Algorithms",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,3
+3,3.7,3.9,"Linear Algebra,Calculus III,Probability and Statistics,Algorithms",25,"Reading,Taking Notes,Practice Problems",Daily,3
+2,3.6,3.8,"Data Structures and Algorithms,Computer Networks,Software Engineering,Discrete Mathematics",25,"Reading,Taking Notes,Group Study",Daily,3
+2,3.5,3.8,"Data Structures and Algorithms,Object-Oriented Programming,Discrete Mathematics,Introduction to Machine Learning",25,"Taking Notes,Group Study,Practice Exams",Daily,2
+3,3.2,3.8,"Object-Oriented Programming,Data Structures and Algorithms,Computer Networks,Software Engineering,Artificial Intelligence",25,"Reading,Taking Notes,Practice Exams",3 times per week,3
+3,3.2,3.8,"Data Structures and Algorithms,Object-Oriented Programming,Database Systems,Machine Learning,Software Engineering",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,3
+3,3.5,3.8,"Data Structures and Algorithms,Software Engineering,Machine Learning,Database Systems",25,"Reading,Taking Notes,Group Study,Practice Exams",3 times per week,2
+2,3.6,3.8,"Introduction to Machine Learning,Data Visualization,Object-Oriented Programming,Artificial Intelligence",30,"Reading,Taking Notes",3 times per week,2
+3,3.5,3.8,"Introduction to Machine Learning,Data Mining,Software Engineering,Computer Networks,Artificial Intelligence",25,"Reading,Taking Notes,Group Study,Practice Exams",3 times per week,2
+3,3.7,3.9,"Data Structures,Algorithms,Software Engineering,Computer Networks,Discrete Mathematics",25,"Reading,Taking Notes,Group Study",Daily,3
+2,3.6,3.8,"Data Structures and Algorithms,Software Engineering,Discrete Mathematics,Database Systems,Computer Networks",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,2
+2,3.5,3.7,"Data Structures and Algorithms,Object-Oriented Programming,Discrete Mathematics,Computer Networks",25,"Reading,Practice Exams,Group Study",3 times per week,2
+3,3.6,3.8,"Software Engineering,Data Structures and Algorithms,Artificial Intelligence,Computer Networks",25,"Reading,Taking Notes,Group Study",Daily,3
+2,3.5,3.8,"Data Structures,Software Engineering,Discrete Mathematics,Calculus",25,"Reading,Practice Exams,Group Study",Daily,2
+3,3.2,3.8,"Software Engineering,Database Systems,Artificial Intelligence,Machine Learning",25,"Reading,Taking Notes,Group Study",3 times per week,2
+3,3.5,3.8,"Data Structures and Algorithms,Software Engineering,Computer Networks,Artificial Intelligence",25,"Reading,Practice Exams,Group Study",Daily,3
+3,3.6,3.8,"Data Structures and Algorithms,Software Engineering,Artificial Intelligence,Database Systems,Computer Networks",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,3
+3,3.2,3.8,"Data Structures and Algorithms,Software Engineering,Database Systems,Artificial Intelligence",25,"Reading,Taking Notes,Practice Exams",3 times per week,2
+2,3.7,3.9,"Data Structures and Algorithms,Object-Oriented Programming,Calculus II,Probability and Statistics",20,"Reading,Practice Exams,Group Study",3 times per week,2
+3,3.6,3.8,"Data Structures,Algorithms,Computer Networks,Software Engineering",25,"Reading,Taking Notes,Practice Exams",Daily,2
+2,3.5,3.8,"Data Structures and Algorithms,Object-Oriented Programming,Calculus II,Discrete Mathematics",25,"Reading,Taking Notes,Group Study",Daily,2
+2,3.5,3.8,"Data Structures,Object-Oriented Programming,Calculus II,Linear Algebra",25,"Taking Notes,Group Study,Practice Exams",3 times per week,2
+3,3.2,3.8,"Data Structures and Algorithms,Software Engineering,Artificial Intelligence,Computer Networks",25,"Reading,Taking Notes,Practice Exams",3 times per week,2
+3,3.94,3.97,"Artificial Intelligence,Natural Language Processing,Computer Vision,Database Systems,Human-Computer Interaction",28,"Reading,Taking Notes,Group Study,Practice Exams",Daily,3
+3,3.5,3.8,"Machine Learning,Data Structures and Algorithms,Software Engineering,Computer Networks,Database Systems",25,"Reading,Taking Notes,Group Study,Practice Exams",3 times per week,2
+3,3.7,3.9,"Artificial Intelligence,Machine Learning,Data Structures and Algorithms,Software Engineering,Database Systems",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,3
+2,3.2,3.8,"Data Structures and Algorithms,Computer Networks,Software Engineering,Discrete Mathematics",25,"Reading,Taking Notes,Group Study",Daily,3
+3,3.2,3.7,"Data Structures and Algorithms,Object-Oriented Programming,Computer Networks,Software Engineering",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,2
+2,3.5,3.8,"Calculus II,Data Structures and Algorithms,Linear Algebra,Probability and Statistics",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,3
+3,3.5,3.8,"Machine Learning,Data Mining,Software Engineering,Artificial Intelligence",25,"Reading,Taking Notes,Group Study",Daily,3
+3,3.57,3.8,"Data Mining,Software Engineering,Machine Learning,Cloud Computing",25,"Practice Exams,Reading,Taking Notes",Daily,3
+3,3.56,3.8,"Linear Algebra,Discrete Mathematics,Probability and Statistics,Machine Learning",25,"Reading,Practice Problems,Group Study",3 times per week,2
+2,3.5,3.8,"Data Structures,Algorithms,Discrete Mathematics,Software Engineering,Computer Architecture",25,"Reading,Taking Notes,Practice Exams",3 times per week,2
+2,3.2,3.8,"Introduction to Data Science,Linear Algebra,Probability and Statistics,Calculus I,Discrete Mathematics",25,"Reading,Taking Notes,Practice Exams",Daily,3
+2,3.5,3.8,"Data Structures and Algorithms,Object-Oriented Programming,Calculus II,Discrete Mathematics",25,"Reading,Taking Notes,Group Study,Practice Exams",Daily,3
+4,3.2,3.7,"Machine Learning,Artificial Intelligence,Computer Graphics,Software Engineering",30,"Reading,Taking Notes,Practice Exams",3 times per week,2
+1,3.8,4,"Introduction to Programming,Calculus I,Linear Algebra,General Chemistry",35,"Reading,Taking Notes,Group Study,Practice Exams",Daily,4
+3,3.5,3.8,"Data Structures and Algorithms,Machine Learning,Software Engineering,Database Systems",25,"Reading,Practice Exams,Group Study",Daily,2
+4,3.5,3.8,"Data Mining,Machine Learning,Computer Vision,Software Engineering",25,"Reading,Taking Notes,Practice Exams,Group Study",Daily,2
