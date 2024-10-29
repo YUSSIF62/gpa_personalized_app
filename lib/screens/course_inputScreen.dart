@@ -40,12 +40,6 @@ class _CoursesInputScreenState extends State<CoursesInputScreen> {
                 studyHoursPerDay: widget.studyHoursPerDay,
                 studyHoursPerWeek: widget.studyHoursPerWeek)),
       );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-            content:
-                Text('Please complete all fields and add at least one course')),
-      );
     }
   }
 
